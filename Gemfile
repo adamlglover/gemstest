@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'mandrill-api'
 gem 'twilio-ruby', '~> 4.0.0'
-gem 'devise'
+gem 'devise', '~> 3.4.1'
 gem 'gmaps4rails'
 gem 'geocoder'
 group :production do

@@ -2,16 +2,19 @@
 <html>
 <head>
   <title>Gemstest</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="container">
+  <%= render 'layouts/homes/header' %>
     <% if notice %><div class="alert alert-info"><%= notice %></div><% end %>
     <% if alert %><div class="alert alert-warning"><%= alert %></div><% end %>
-    
 <%= yield %>
-  </div>
+
+  <%= render 'layouts/homes/footer' %>
 </body>
 </html>
