@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 #  get 'notifications/index'
 #get 'incoming/' => 'notifications#incoming'
-  post 'new/' => 'notifications#new'
+#  post 'new/' => 'notifications#new'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
