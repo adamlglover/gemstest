@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root 'homes/index'
   # You can have the root of your site routed with "root"
-  get 'notifications#index'
+  get 'notifications/index'
 get 'incoming/' => 'notifications#incoming'
   post 'new/' => 'notifications#new'
   # Example of regular route:
