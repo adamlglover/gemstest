@@ -12,13 +12,13 @@ skip_before_filter :verify_authenticity_token
     @body = if params[:Body].nil? then '' else params[:Body].downcase end
     begin
       if @new_subscriber
-        output = "Thanks for contacting TWBC! Text 'subscribe' if you would to receive updates via text message."
+        output = "Thanks for contacting AG"
       else
         # Process the command from our Subscriber
         output = process_message(@body, @subscriber)
       end
     rescue
-      output = "Something went wrong. Try again."
+      output = "Something went wrong. Try again yyooo."
     end
 
     # Render the TwiML response
@@ -35,7 +35,7 @@ skip_before_filter :verify_authenticity_token
         s.send_message(message, image_url)
         flash[:success] = "Messages on their way!"
       rescue 
-        flash[:alert] = "Something when wrong."
+        flash[:alert] = "Something when wrong. For some reason idk."
       end
     end
     redirect_to '/'
@@ -58,7 +58,7 @@ skip_before_filter :verify_authenticity_token
         # Respond appropriately
         output = "You are now subscribed for updates."
         if !subscriber.subscribed
-          output = "You have unsubscribed from notifications. Test 'subscribe' to start receieving updates again"
+          output = "You have unsubscribed from notifications. Test 'subscribe' to start receieving updates again Whaaa"
         end
       else
         # If we don't recognize the command, text back with the list of

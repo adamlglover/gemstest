@@ -26,6 +26,7 @@ gem 'twilio-ruby', '~> 4.0.0'
 gem 'devise', '~> 3.4.1'
 gem 'gmaps4rails'
 gem 'geocoder'
+gem 'sinatra', '~> 1.4.6'
 group :production do
 gem 'pg'
 gem 'thin'
