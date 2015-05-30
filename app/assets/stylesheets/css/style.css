@@ -1,19 +1,6 @@
 @charset 'UTF-8';
-/*@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
-*/
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('/assets/source-sans-pro-light.woff2') format('woff2'), url('/assets/source-sans-pro-light.woff') format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url('/assets/source-sans-pro-black.woff2') format('woff2'), url('/assets/source-sans-pro-black.woff') format('woff');
-}
 
 /*
 	Big Picture by HTML5 UP
@@ -52,7 +39,7 @@
 	body,input,textarea,select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		font-size: 15pt;
+		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.5px;
@@ -445,7 +432,7 @@
 				background-repeat: no-repeat;
 				text-indent: -10em;
 				overflow: hidden;
-      }
+			}
 
 				.button.down.anchored {
 					bottom: 0;
@@ -610,7 +597,6 @@
 					}
 
 					.main.style2.right .content {
-						/*left: 27%;*/
 						left: 65%;
 					}
 
@@ -876,20 +862,11 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('/assets/new_welcome_image.png');
-		background-size: 100% 100%, cover;
+		background: url('/assets/overlay.png'), url('../assets/intro.jpg');
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		background-repeat: none, no-repeat;
-
-		h2{
-			color: #191919;
-		}
-		p{
-			/*font-size: 22px;*/
-			color: #ffffff;
-			background-color: rgba(0, 0, 0, 0.65);
-		}
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -897,10 +874,9 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('/assets/new_network_image1.jpeg');
-		background-size: 100% 100%, cover;
+		background: url('/assets/overlay.png'), url('../assets/one.jpg');
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-repeat: no-repeat;
 		background-position: top left, center center;
 	}
 
@@ -909,48 +885,13 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('/assets/new_trust_image.jpg');
-		background-size: 100% 100%, cover;
+		background: url('/assets/overlay.png'), url('../assets/two.jpg');
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-repeat: no-repeat;
 		background-position: top left, center center;
 	}
 
 /*********************************************************************************/
-/* Three                                                                           */
-/*********************************************************************************/
-
-	#three {
-		background: url('/assets/new_mates_image.jpg');
-		background-size: 100% 100%, cover;
-		background-attachment: fixed, fixed;
-		background-repeat: no-repeat;
-		background-position: top left, center center;
-	}
-
-/*********************************************************************************/
-#four {
-		background: url('/assets/new_sell_image.png');
-		background-size: 100% 100%, cover;
-		background-attachment: fixed, fixed;
-		background-repeat: no-repeat;
-		background-position: top left, center center;
-	}
-
-/*********************************************************************************/
-/* Five                                                                           */
-/*********************************************************************************/
-
-	#five {
-		background: url('/assets/new_buy_image.jpg');
-		background-size: 100% 100%, cover;
-		background-attachment: fixed, fixed;
-		background-repeat: no-repeat;
-		background-position: top left, center center;
-	}
-
-/*********************************************************************************/
-
 /* Work                                                                          */
 /*********************************************************************************/
 

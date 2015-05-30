@@ -2,6 +2,7 @@
 @import "css/style";
 @import "css/style-wide";
 @import "css/style-normal";
-@import "css/custom";
-//@import "font-awesome-sprockets";
-//@import "font-awesome";
+
+@import "custom";
+//@import "fonts/font-awesome-sprockets";
+@import "css/font-awesome.min";
