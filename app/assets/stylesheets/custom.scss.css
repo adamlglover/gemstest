@@ -1,10 +1,44 @@
 .navbar-default .navbar-brand {
    font-family: guardian-egyptt, georgia, serif;
+  color: #d22f2f;
  font-weight: 400;
   font-size: 30px;
  background-color: #F5F5F5; 
 }
 
-.col-md-4:nth-child(3n+1) {
+.col-sm-3:nth-child(4n+1) {
   clear: left;
-}       
+}
+
+.col-md-12 {
+    text-overflow: ellipsis;
+ white-space: nowrap;
+  display: block;
+    overflow: hidden;
+  /* viewing the div box 
+      border: solid 2px blue; */    
+}
+
+
+.col-md-4 {
+   text-overflow: ellipsis;
+ white-space: nowrap;
+  display: block;
+    overflow: hidden
+     /* viewing the div box 
+      border: solid 2px blue; */
+}
+
+.container {
+  background-color: white;
+}
+
+.footer {
+width: 960px;
+height: 211px;
+padding: 33px 0 0;
+margin: 0 auto;
+text-align: left;
+  display: block;
+ 
+}     

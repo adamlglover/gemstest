@@ -1,0 +1,211 @@
+/* CSS for landing page */
+.btn {
+  -moz-user-select: none;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.43;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 0 none;
+  }
+}
+.btn-large {
+  font-size: 16px;
+  padding: 9px 27px;
+}
+.btn-contrast {
+  background-color: #191919;
+  border-color: #565a5c #565a5c #383b3c;
+  color: #fff;
+  &:active {
+    background-color: #383b3c;
+    border-color: #383b3c;
+    color: #fff;
+  }
+}
+.btn-semi-transparent {
+  /*background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);*/
+  border-style: none;
+  text-decoration: none;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+}
+
+/*img.network_img {
+  margin-left: -10px;
+}*/
+
+/*img.sell_items_img {
+  margin-left: -10px;
+  width: 40%;
+  height: 80%;
+}
+img.buy_items_img {
+  margin-left: -10px;
+  width: 40%;
+  height: 85%; 
+}*/
+
+.logo{
+  height: 3em;
+  left: 1em;
+  letter-spacing: -1px;
+  line-height: 4em;
+  position: absolute;
+  top: 0;
+  }
+
+
+#post_item{
+  -moz-user-select: none;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.43;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 0 none;
+  }
+  font-size: 16px;
+  padding: 9px 27px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #565a5c #565a5c #383b3c;
+  color: #fff;
+  &:active {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #383b3c;
+    color: #fff;
+  }
+  background: rgba(58,136,196,.7);
+  border-style: none;
+  text-decoration: none;
+  &:hover {
+    background-color: rgba(58,136,196,1);
+  }
+}
+
+#sign_up{
+  -moz-user-select: none;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.43;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 0 none;
+  }
+  font-size: 16px;
+  padding: 9px 27px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #565a5c #565a5c #383b3c;
+  color: #fff;
+  &:active {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #383b3c;
+    color: #fff;
+  }
+  background:  rgba(92,184,95,.7);
+  border-style: none;
+  text-decoration: none;
+  &:hover {
+    background-color:  rgba(92,184,95,1);
+  }
+}
+
+.image_section_new {
+    display: block;
+    max-height: 340px !important;
+    width: 100%;
+}
+.image_section_new > img {
+    display: table;
+    height: 100%;
+    min-height: 338px;
+}
+
+#menu {
+  float: right;
+  text-align: right;
+  display:none;
+ }
+
+
+ .for_toogle {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  height: 34px;
+  padding: 0 !important;
+  position: relative;
+  top: 3px;
+  width: 35px;
+ }
+ .icon-bar {
+  background: none repeat scroll 0 0 rgb(0, 0, 0);
+  display: block;
+  height: 2px;
+  margin: 5px 0;
+  width: 23px;
+ }
+ .custome_nav > ul {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  list-style: outside none none;
+  padding: 0 !important;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin:0px;
+  display: none;
+ }
+ .custome_nav li {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  display: table;
+  /*padding: 10px 0;*/
+  text-align: center !important;
+  width: 100%;
+ }
+ .custome_nav li:last-child {
+  border-bottom: medium none;
+ }
+ .custome_nav a {
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 0 66px;
+  text-align: center !important;
+  text-decoration: none;
+  width: auto;
+ }
+
+@media screen and (max-width:736px){
+  #menu {
+  float: right;
+  text-align: right;
+  display:block;
+ }
+}
