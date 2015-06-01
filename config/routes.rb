@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  get 'homes/index'
+  root 'homes#index'
   # You can have the root of your site routed with "root"
-  root 'notifications#index'
+ # root 'notifications#index'
 get 'incoming/' => 'notifications#incoming'
   post 'new/' => 'notifications#new'
   # Example of regular route:
